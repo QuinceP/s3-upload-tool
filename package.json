@@ -1,0 +1,27 @@
+{
+  "name": "s3-upload-tool",
+  "version": "1.0.0",
+  "description": "Uploads data to Amazon S3.",
+  "main": "upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node upload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuinceP/s3-upload-tool.git"
+  },
+  "author": "Christen Ward <christen@christenward.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuinceP/s3-upload-tool/issues"
+  },
+  "homepage": "https://github.com/QuinceP/s3-upload-tool#readme",
+  "dependencies": {
+    "aws-sdk": "^2.141.0",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "inquirer": "^3.3.0",
+    "mongoose": "^4.12.4"
+  }
+}
