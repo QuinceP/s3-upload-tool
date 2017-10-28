@@ -7,7 +7,9 @@ An application to upload data to Amazon S3.
 ### Prerequisites
 
 s3-upload-tool requires:
+
 [Node.js](https://nodejs.org/en/download/package-manager/) (v6.11.5+)
+
 [npm](https://www.npmjs.com/get-npm) (v3.10.10+)
 
 Npm comes bundled with node.js, so you shouldn't have to install npm separately.
